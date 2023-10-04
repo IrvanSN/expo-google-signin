@@ -15,16 +15,24 @@
       "**/*"
     ],
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.irvansn.googlesignin"
     },
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.irvansn.googlesignin"
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "owner": "irvansn",
+    "extra": {
+      "eas": {
+        "projectId": "537bdb2a-493b-4f9d-bb6f-c35cd680f9a2"
+      }
     }
   }
 }
